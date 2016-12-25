@@ -1,0 +1,51 @@
+
+main{
+	margin-top:0;
+}
+#page-content{
+		padding:0;
+	margin:0;
+}
+
+
+h2, h4,h1{
+	font-family: 'Oswald', serif;
+}
+
+
+
+
+
+.me{
+	height:500px;
+	
+	padding:0;
+	margin:0;
+	text-align:center;
+	
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("http://i.imgur.com/Fh7X7fo.png");
+	
+}
+
+.me_txt{
+	background-color:rgba(0,0,0,0.60);
+	height:500px;
+	padding-top:100px;
+	color:white;
+	text-shadow:1px 1px 3px black;
+}
+
+.skills{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+
+.skills h5{
+	
+	margin-top:0;
+	
+}

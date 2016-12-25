@@ -1,0 +1,87 @@
+
+
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the blue section)
+ */
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+
+}
+
+.col-md-4{
+	padding-right:0 !important;
+	padding-left:0 !important;
+}
+
+.thumbnail{
+	border-radius:0;
+	margin:5px;
+	padding-right:0 !important;
+	padding-left:0 !important;
+}
+
+
+.container{
+	
+	
+	padding:10px 0 0 0;
+	width:100%;
+	 margin: 0 auto;
+	
+}
+@media (min-width:768px){ 
+	.block{
+			background-color:white;
+			float: left;
+			/*width: 23%;*/
+			width:23vw;
+			margin: 5px;
+			}
+}
+
+@media (max-width: 768px){ 
+	.block{
+		background-color:white;
+		float: left;
+		/*width: 23%;*/
+		width:45vw;
+		margin: 5px;
+		}
+	
+
+}
+
+
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+
+.caption{
+	color:white;
+	background-color:black;
+	padding:5px;
+}
+	
+.caption h3{
+	font-family: 'Oswald', serif;
+	font-size:15px;
+	padding:5px;
+	margin:0;
+	
+}
+
+.caption p{
+	font-family:'Open Sans', serif;
+	font-size:13px;
+	padding:5px;;
+	margin:0;
+}

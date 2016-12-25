@@ -1,0 +1,23 @@
+
+
+
+.formulario{
+	margin-top:20px;
+}
+
+.formulario h3{
+	font-family: 'Oswald', serif;
+}
+
+.formulario .input-group{
+	margin-bottom:20px;
+}
+.input-group-addon{
+	background-color:#ff5151;
+	color:white;
+}
+
+.btn{
+	float:right;
+	background-color:#eeeeee;
+}

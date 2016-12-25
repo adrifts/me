@@ -1,6 +1,6 @@
 #wrapper{
 	position:absolute;
-	width:400px;
+	max-width:400px;
 	z-index:10;
 	left:0;
 	right:0;

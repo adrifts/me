@@ -10,7 +10,8 @@
 	text-align:center;
 }
 #logo{
-	width:200px;
+max-width:15vw;
+
 margin:auto;
 }
 
@@ -18,9 +19,59 @@ margin:auto;
 	font-family:'Oswald';
 	color:white;
 	float:left;
-	font-size:25px;
+	font-size:2vw;
 	text-align:center;
 	margin-bottom:20px;
+}
+@media screen and (max-width: 970px) {
+	#logo{
+	max-width:16vw;
+
+	
+	}
+	#texto{
+		font-size:3vw;
+	}
+}
+@media screen and (max-width: 770px) {
+	#logo{
+	max-width:17vw;
+
+	
+	}
+	#texto{
+		font-size:4vw;
+	}
+}
+@media screen and (max-width: 600px) {
+	#logo{
+	max-width:20vw;
+
+	
+	}
+	#texto{
+		font-size:5vw;
+	}
+}
+@media screen and (max-width: 550px) {
+	#logo{
+	max-width:25vw;
+
+	
+	}
+	#texto{
+		font-size:6vw;
+	}
+}
+@media screen and (max-width: 400px) {
+	#logo{
+	max-width:30vw;
+
+	
+	}
+	#texto{
+		font-size:7vw;
+	}
 }
 #wrapper a{
 	padding:15px;

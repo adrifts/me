@@ -1,4 +1,6 @@
-
+body {
+    background-color: #ff3e3e;
+}
 
 /*
  * -- CONTENT STYLES --
@@ -22,6 +24,7 @@
 
 .thumbnail{
 	border-radius:0;
+	border:0;
 	margin:5px;
 	padding-right:0 !important;
 	padding-left:0 !important;

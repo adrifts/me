@@ -1,3 +1,17 @@
+.titles{
+	color: white;
+    font-family: Oswald;
+    text-align: center;
+	text-decoration:underline;
+}
+.barras{
+	display:none;
+}
+
+.barras .dropdown-menu{
+	width:100% !important;
+}
+
 .navbar-brand {
 	background-color:white;
 }
@@ -66,6 +80,7 @@
 	font-size:16px;
 	
 }
+
 .navbar li{
 	text-align:center;
 	color:white;
@@ -76,10 +91,13 @@
 }
 .navbar li:hover{
 	background:#fff;
-	color:black;
+	
 	
 }
 
+.navbar li:hover>a{
+	color:black !important;
+}
 li.dropdown {position: static;}
 
 .dropdown-menu {
@@ -128,6 +146,7 @@ li.dropdown {position: static;}
 .navbar-default .navbar-nav>li>a:focus{
 	color:white!important;
 }
+
 .navbar-default .navbar-nav>li>a:focus:hover{
 	color:black!important;
 }
@@ -139,8 +158,39 @@ li.dropdown {position: static;}
 	color:black!important;
 }
 
+/*dropdown hover*/
 
+#submenu:hover .dropdown-menu{
+    display: block!important;
+	
+}
 
+#submenu .dropdown-menu>li{
+    display: inline-block;
+	
+}
+
+#submenu:hover .dropdown-menu{
+	position:absolute;
+	background-color:rgba(0,0,0,0.6);
+	
+}
+
+#submenu:hover .dropdown-menu>li>a {
+	color:white;
+	padding:15px;
+	transition:0.3s;
+	
+
+}
+
+#submenu:hover .dropdown-menu>li>a:hover{
+	background-color:white;
+	color:black;
+	text-decoration:underline;
+	
+	
+	}
 
 
 /*

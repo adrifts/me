@@ -24,7 +24,12 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
-	sr.reveal('.sr-title', {
+	sr.reveal('.sr-me', {
+        duration: 600,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
+	sr.reveal('.sr-skills', {
         duration: 600,
         scale: 0.3,
         distance: '0px'

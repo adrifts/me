@@ -28,6 +28,12 @@ h2, h4,h1{
 	background-color:#ff3e3e;
 	
 }
+@media (max-width:359px)
+{
+	.me{
+		height:110vh;
+	}
+}
 .me a{
 	padding:13px;
 	background-color:white;

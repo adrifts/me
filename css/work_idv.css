@@ -1,13 +1,13 @@
+
 body {
     background-color: #ff3e3e;
 }
 
-/*
- * -- CONTENT STYLES --
- * This represents the content area (everything below the blue section)
- */
-.content-wrapper {
-    /* These styles are required for the "scroll-over" effect */
+main{
+	padding-top:50px;
+}
+/*.content-wrapper {
+    
     position: absolute;
     top: 100%;
     width: 100%;
@@ -17,18 +17,14 @@ body {
 
 }
 
-.col-md-4{
-	padding-right:0 !important;
-	padding-left:0 !important;
-}
-
 .thumbnail{
 	border-radius:0;
 	border:0;
 	margin:5px;
 	padding-right:0 !important;
 	padding-left:0 !important;
-}
+}*/
+
 
 
 .container{
@@ -36,36 +32,51 @@ body {
 	
 	padding:10px 0 0 0;
 	width:100%;
-	 margin: 0 auto;
+	margin: 0 auto;
 	
 }
-@media (min-width:768px){ 
+
+.block{
+	background-color:white;
+	float: left;
+	margin: 15px;
+}
+
+
+@media (min-width:1366px){ 
 	.block{
-			background-color:white;
-			float: left;
-			/*width: 23%;*/
-			width:23vw;
-			margin: 5px;
+			width:20vw;
 			}
 }
 
-@media (max-width: 768px){ 
+@media (max-width:1200px){ 
 	.block{
-		background-color:white;
-		float: left;
-		/*width: 23%;*/
-		width:45vw;
-		margin: 5px;
-		}
-	
-
+			width:30vw;
+			}
 }
+
+@media (max-width:992px){ 
+	.block{
+			width:40vw;
+			}
+}
+
+@media (max-width:768px){ 
+	.block{
+			width:80vw;
+			}
+}
+
+
+
+
 
 
 
 	img{
 		width: 100%;
 		height: auto;
+		
 	}
 
 .caption{
@@ -85,6 +96,6 @@ body {
 .caption p{
 	font-family:'Open Sans', serif;
 	font-size:13px;
-	padding:5px;;
+	padding:5px;
 	margin:0;
 }

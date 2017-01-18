@@ -24,7 +24,7 @@ h2, h4,h1{
 	color: white;
     font-family: Oswald;
     text-align: center;
-	text-decoration:underline;
+	
 }
 .barras{
 	display:none;
@@ -317,7 +317,7 @@ header a{
 @media (max-width:767px)
 {
 	.me{
-		height:70vh;
+		height:77vh;
 	}
 }
 @media (max-width:767px)

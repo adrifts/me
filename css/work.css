@@ -1,12 +1,31 @@
-main{
-	margin-top:55px;
-	
+a:active,
+a:hover,  a:visited  {
+  outline: 0;
+  color: white;
+  text-decoration: none;
 }
-body{
-	background-color:#ff3e3e;
+
+
+h2{
+	margin:0px;
+	padding:20px 0 10px 0;
 }
-.row{
-	height:45%;
+.work{
+	padding-top:50px;
+	height:115vh;
+	background-color:#222222;
+}
+.work h2{
+	color:white;
+	margin-bottom:40px;
+}
+@media (max-width: 767px){ 
+	.work{
+		height:150vh;
+	}
+}
+.work .row{
+	height:38%;
 	position:absolute;
 	right:0;
 	left:0;
@@ -30,7 +49,7 @@ body{
 
 	font-size:20px;
 	
-	background-color:#fff;
+	background-color:#000;
 	color:#000;
 	/*box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.13);
 	/*transition:1s; ////////////perguntar a opiniao sobre esta animação*/
@@ -78,7 +97,7 @@ body{
 }
 
 .painel{
-	padding:5px;
+	padding:10px;
 	height:100%;
 	
 }
@@ -126,4 +145,86 @@ body{
 
 }
 
+footer{
+	padding-top:50px;
+	padding-bottom:20px;
+	background-color:#222;
+	color:white;
+	
+}
+footer a{
+	text-decoration:none;
+	color:white;
+	
+
+}
+footer a:hover{
+	text-decoration:underline;
+	color:white;
+}
+footer .social .fa{
+	transition: all 0.3s;
+	padding:20px 30px 0 0;
+	
+}
+@media (max-width: 767px){
+	footer .social .fa{
+		
+		padding:20px 15px 0px 15px;
+		
+	}
+}
+@media (max-width: 767px){
+	footer{
+		text-align:center;
+	}
+}
+footer span{
+	font-size:12px;
+	
+	
+}
+
+footer .visible-xs{
+	display:none;
+	font-size:18px;
+	margin-bottom:20px;
+
+}
+
+.social{
+	margin-bottom:15px;
+	font-size:25px;
+}
+.contact-content{
+	margin-top:40px;
+}
+.fa-angle-up{
+	font-size:70px;
+	margin-bottom:25px;
+	padding:0;
+	transition: all 0.3s;
+}
+.fa-angle-up:hover{
+	font-size:80px;
+}
+
+.footer-right{
+	text-align:right;
+}
+
+@media (max-width: 767px){
+.footer-right{
+	text-align:center;
+}
+}
+.social .fa-facebook:hover{
+	color:#3b5998;
+}
+.social .fa-tumblr:hover{
+	color:#36465d;
+}
+.social .fa-youtube:hover{
+	color:#cc181e;
+}
 

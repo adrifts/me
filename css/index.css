@@ -1,6 +1,12 @@
-#wrapper{
+body{
+	background-color:#ff3e3e;
+}
+header{
+	height:100vh;
+}
+.wrapper{
 	position:absolute;
-	max-width:400px;
+	
 	z-index:10;
 	left:0;
 	right:0;
@@ -9,84 +15,44 @@
 	top:100px;
 	text-align:center;
 }
-#logo{
-max-width:15vw;
-
-margin:auto;
-}
-
-#texto{
-	font-family:'Oswald';
-	color:white;
-	float:left;
-	font-size:2vw;
-	text-align:center;
-	margin-bottom:20px;
-}
-@media screen and (max-width: 970px) {
-	#logo{
-	max-width:16vw;
-
-	
-	}
-	#texto{
-		font-size:3vw;
-	}
-}
-@media screen and (max-width: 770px) {
-	#logo{
-	max-width:17vw;
-
-	
-	}
-	#texto{
-		font-size:4vw;
-	}
-}
-@media screen and (max-width: 600px) {
-	#logo{
-	max-width:20vw;
-
-	
-	}
-	#texto{
-		font-size:5vw;
-	}
-}
-@media screen and (max-width: 550px) {
-	#logo{
-	max-width:25vw;
-
-	
-	}
-	#texto{
-		font-size:6vw;
-	}
-}
-@media screen and (max-width: 400px) {
-	#logo{
+.wrapper img{
 	max-width:30vw;
+	margin:auto;
+	
+}
 
+@media(max-width:767px){
+	.wrapper img{
+	max-width:50vw;
+	margin:auto;
 	
 	}
-	#texto{
-		font-size:7vw;
+}
+@media(max-width:500px){
+	.wrapper img{
+	max-width:70vw;
+	margin:auto;
+	
 	}
 }
-#wrapper a{
-	padding:15px;
-	text-decoration:none;
-	background-color:rgba(255,255,255,0.80);
-	font-size:17px;
-	color:black;
-	font-family:'Oswald';
+header a{
+	
+	position:absolute;
+	z-index:5;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom:0;
+	max-width:50px;
+	color:white;
+	font-size:70px;
+	text-align:center;
+	transition:0.3s;
 	
 }
-#wrapper a:hover{
-	
-	
-	background-color:rgba(0,0,0,0.80);
-	
+header a:hover{
+	font-size:80px;
 	color:white;
 	
 	

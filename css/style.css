@@ -296,11 +296,11 @@ header a{
 	margin:0;
 }
 .about-content, .skills-content{
-	margin-top:40px;
+	margin-top:0px;
 }
 .me{
 	height:80vh;
-	padding-top:50px;
+	padding-top:0px;
 	margin:0;
 	background-color:#ff3e3e;
 }
@@ -308,7 +308,7 @@ header a{
 	color:white;
 }
 .skills{
-	padding-top:50px;
+	padding-top:0px;
 	height:80vh;
 	background-color:#ff3e3e;;
 	color:white;

@@ -340,8 +340,8 @@ header a{
 	height:30vh;
 } */
 .sr-buttonme {
-	height:30vh;
-	line-height:23vh;
+	height:20vh;
+	line-height:25vh;
 } 
 .sr-buttonme a{
 	padding:13px;
@@ -373,8 +373,8 @@ header a{
 @media (min-width:1400px)
 {
 	.sr-buttonme{
-		height:30vh;
-		line-height:15vh;
+		height:20vh;
+		line-height:25vh;
 		
 	}
 }
